@@ -17,6 +17,7 @@ int main() {
     /* 対応表出力 */
     fahr = lower;
     while (fahr <= upper) {
+        /* 係数5/9≒0.555...が割り切れないため、入力が整数刻みでも結果は小数になる */
         celsius = (5.0 / 9.0) * (fahr - 32);
         printf("%3.0f %6.1f\n", fahr, celsius);
         fahr = fahr + step;
