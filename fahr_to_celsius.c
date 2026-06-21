@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* fah=0.20, ..., 300に対して、摂氏-華氏対応表を印字する */
+/* fah=0, 20, ..., 300に対して、摂氏-華氏対応表を印字する */
 
 int main() {
     float fahr, celsius;
